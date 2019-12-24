@@ -71,7 +71,9 @@
             "@php artisan key:generate --ansi"
         ],
         "post-install-cmd": [
-            "@php artisan migrate --force"
+            "@php artisan migrate --force",
+            "yarn",
+            "yarn run production"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
