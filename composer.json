@@ -72,7 +72,7 @@
         ],
         "post-install-cmd": [
             "@php artisan migrate --force",
-            "yarn run production"
+            "yarn run dev"
         ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
