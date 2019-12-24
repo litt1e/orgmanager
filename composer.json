@@ -72,7 +72,6 @@
         ],
         "post-install-cmd": [
             "@php artisan migrate --force",
-            "yarn",
             "yarn run production"
         ],
         "post-autoload-dump": [
